@@ -2,9 +2,6 @@
   "filters": {
     "comments": true
   },
-  "plugins": [
-    "ignore-comments"
-  ],
   "rules": {
     "apostrophe": true,
     "doubled-spaces": true,
