@@ -85,4 +85,6 @@ Docker, RSpec
 
 2014/04/01 ~ 2023/09/30
 
+【チーム編成】
+
 <!-- textlint-disable ja-no-mixed-period -->
