@@ -86,5 +86,9 @@ Docker, RSpec
 2014/04/01 ~ 2023/09/30
 
 【チーム編成】
+リーダー 1 人
+サブリーダー 1 人
+主任 3 人
+配達員 3 人
 
 <!-- textlint-disable ja-no-mixed-period -->
