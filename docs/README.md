@@ -1,89 +1,134 @@
 # 職務経歴書
 
-## 経歴要約
+## 基本情報
 
-電気通信大学で機械工学を専攻し、卒業研究では人工衛星モデルの姿勢制御シミュレーションを実施。
+| key      | value                    |
+| -------- | ------------------------ |
+| 氏名     | 齊藤 茂紀                |
+| 生年月日 | 1989/12/29               |
+| 居住地   | 東京都                   |
+| 最終学歴 | 電気通信大学電気通信学部 |
 
-日本郵便株式会社に入社し、9 年間にわたり郵便物の配達および郵便商品の営業活動に従事。
-リーダー業務や管理業務も担当し、効率的な業務プロセスの導入により、所属チームの残業時間を 50％ 削減。
+### 各種アカウント
 
-退職後、パーソルクロステクノロジー株式会社に派遣社員として登録し、1 年間保険会社の社内システムの保守・運用・監視を担当。システムの安定稼働を確保し、IT インフラの知識を深める。
+[![GitHub](https://img.shields.io/badge/SaitoShigeki-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/Saito-3815)
+[![Twitter](https://img.shields.io/badge/@SaitoShigeki-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/saito_engine)
 
-勤務を続けながら 7 ヶ月で AWS 認定ソリューションアーキテクトプロフェッショナル、LPIC-3、CCNA などの IT 系資格を 6 つ取得。その後はプログラミング学習に取り組み、個人開発アプリ「Mixtones」をリリースし、現在も開発を継続中。
+### ポートフォリオ URL
 
-## 生かせるスキル
+## キャリア目標
+
+バックエンドエンジニアとして社内でテックリード的な立場となり、さらにインフラ技術までカバーした SRE エンジニアを目指す。
+
+
+## 学習したスキル
 
 ### 言語
 
-Ruby・JavaScript
+![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white)
 
 ### フレームワーク・ライブラリ
 
-Ruby on Rails・React
+![Ruby on Rails](https://img.shields.io/badge/-Ruby_on_Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=Tailwind-CSS&logoColor=white)
 
-### RDB
+### DB・クラウド
 
-MySQL・PostgreSQL
-
-### クラウド
-
-#### AWS
-
-ECR・ECS・EC2・Fargate・IAM・S3
-
-### SaaS/PaaS
-
-GitHub・GitHub Actions・GitHub Pages
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![ECR](https://img.shields.io/badge/-ECR-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![ECS](https://img.shields.io/badge/-ECS-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![EC2](https://img.shields.io/badge/-EC2-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![Fargate](https://img.shields.io/badge/-Fargate-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![IAM](https://img.shields.io/badge/-IAM-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![S3](https://img.shields.io/badge/-S3-569A31?style=flat-square&logo=Amazon-S3&logoColor=white)
 
 ### その他
 
-Docker, RSpec
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/-GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![RSpec](https://img.shields.io/badge/-RSpec-CC342D?style=flat-square&logo=ruby&logoColor=white)
 
-## 保有資格
-
-| 年   | 月  | 資格名                                           |
-| ---- | --- | ------------------------------------------------ |
-| 2023 | 7   | Cisco Certified Network Associate (200-301 CCNA) |
-| 2023 | 8   | LPIC Level1                                      |
-| 2023 | 9   | AWS ソリューションアーキテクトアソシエイト       |
-| 2023 | 11  | LPIC Level2                                      |
-| 2023 | 11  | LPIC Level3 300                                  |
-| 2024 | 1   | AWS ソリューションアーキテクトプロフェッショナル |
-
+<!-- markdownlint-disable MD024 -->
 <!-- textlint-disable ja-no-mixed-period -->
 
-## 職務経歴
+## プロジェクト・経験
 
-### パーソルクロステクノロジー株式会社
+### 音楽共有アプリ「 Mixtones 」
 
-#### 社内システム運用保守監視
+#### 概要
 
-【雇用形態】
+音楽共有アプリ「Mixtones」開発。身近な課題解決とプログラミング学習の成果物作成を目的とした個人開発プロジェクトです。
 
-派遣社員
+#### 担当
 
-【在籍期間】
+設計・コーディング・インフラ構築・運用・保守など全工程を担当。
 
-2023/11/01 ~ 現在
+#### 使用技術
 
-【チーム編成】
+![Ruby on Rails](https://img.shields.io/badge/-Ruby_on_Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=black)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=Tailwind-CSS&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-- リーダー 1 人
-- 拠点リーダー 1 人
-- サブリーダー 2 人
-- オペレーター 4 人
+#### 課題
 
-【プロダクトが属する業界】
+次のような課題点があり、このプロジェクトに至った。
 
-保険業界
+- 私自身がプライベートで音楽活動をしているが、コロナ禍の影響や年齢を重ねて予定を合わせるのが難しくなり実際に友人と会って音楽の情報を交換する機会が減っていると感じていた
+- 自分や周りの友人は主に Spotify を利用しており、Spotify にはお気に入りのプレイリストの作成・公開や、AI によるユーザー同志の好みを反映させたプレイリスト作成などの機能が存在する。しかし、普段聞いている音楽を直接的に共有する機能はなく、情報を交換するためには追加のアクションが必要であり、これが煩わしいと感じていた
 
-【システム概要】
+#### 取り組み
 
-- メインフレーム（IBM：z/OS、富士通 FACOM）
-- サーバ（Windows サーバ、Linux サーバ等）
-- バッチ処理監視（JP1、TWS）
+- アプリ内で同じコミュニティに参加することで、Spotify API へユーザー認証した Spotify ユーザー同志の「お気に入りの楽曲」リストを統合したプレイリストを自動作成可能とした
+- 上記プレイリストの内容を普段の Spotify アプリ上のアクティビティに合わせて自動更新する機能を実装
+- Spotify ユーザー以外のユーザーも楽曲をプレビュー再生視聴できる機能を実装し、各コミュニティのプレイリストのなかでユーザーが気に入った楽曲を自分のユーザーページに保存できるチェック機能も実装。ユーザーがアプリ上で様々な音楽の情報をキャッチアップできるようにした
 
-【業務内容】
+#### 工夫した点
+
+- 音楽情報の共有に何らかのアクションを挟むことが煩わしいと感じていたので、登録した Spotify ユーザーが本アプリに定期的にログインしていれば自動で最新の Spotify アプリ上のアクティビティをフェッチし、本アプリ上のデータを自動更新可能とした
+- Spotify API と連携した通常の音楽再生機能に加えプレビュー再生機能を実装し、Spotify ユーザー以外のユーザーも新しい音楽を発見可能とした
+
+#### 成果
+
+- これらの取り組みにより、友人同志で普段聴いている音楽の情報を、直接会ったりメールで連絡したりすることなく共有可能とし、友人から高評価を得た
+- このアプリの開発を通して Ruby on Rails, React, JavaScript などの実践的な技術を学習できた
+
+### 保険会社の社内オンラインシステム運用・監視・保守
+
+#### 概要
+
+保険会社の社内オンラインシステム運用・監視・保守
+
+
+#### 担当
+
+オペレーター
+(要員 32 名)
+
+
+#### 使用技術
+
+メインフレーム:
+IBM：z/OS, 富士通 FACOM
+
+サーバ:
+Windows サーバ, Linux サーバ
+
+バッチ処理監視:
+JP1, TWS
+
+ターミナル:
+TeraTerm
+
+#### 業務内容
 
 1 定例作業
 
@@ -97,59 +142,52 @@ Docker, RSpec
 - JP1、TWS で稼働するバッチ処理のスケジュール変更、リランなど
 - 顧客が使用する高権限 ID の貸し出し対応
 
-### 日本郵便株式会社
+#### 規模
 
-#### 集配営業
+メインフレーム
 
-【雇用形態】
+- IBM 6 台
 
-正社員
+- 富士通 3 台
 
-【在籍期間】
+#### 業務での立ち回り
 
-2014/04/01 ~ 2023/09/30
+監視オペレーターとして運用オペレーションを実施。チーム内の役割としては主に社内オンラインシステムの停止・起動作業を担当。
 
-【チーム編成】
+#### 発揮したスキル
 
-- リーダー 1 人
-- サブリーダー 1 人
-- 主任 3 人
-- 配達員 3 人
+業務時間外のプログラミング学習で得た知識をもとに VBA で作成された業務ツールを改良し、チームの生産性を向上させた
 
-【業務内容】
+#### ポイント
 
-- 三鷹地域及びのちに目黒地域の担当として、日々の郵便物の配達
-- PC で配達に必要な資料を社内システムにより作成・管理
-- 地域のお客様を対象とした切手類や年賀状など各種郵便商品の営業
-- 配達地域の各法人を対象に郵便商品の定期契約の提案営業
-- 同地域担当の他の正社員及び契約社員の残業も含めた業務の進捗管理、休日調整を含む勤務日程の作成
+IT 系の業種に転職して初めての現場だったが、オペレーター業務経験を重ねて運用的視点(手順書の重要性やミスの重大性)を身につけた。
+また、チーム内で臨時・依頼作業を適時分担したことでチームメンバー間のコミュニケーションスキルを培った。
+業務時間外に並行して LPIC 3 や AWS SAP などの資格取得やポートフォリオ作成を目的としたプログラミング学習を継続し、最終的に学習したプログラミングスキルを業務ツールの改善に結びつけた。
+
 
 <!-- textlint-disable ja-no-mixed-period -->
+<!-- markdownlint-enable MD024 -->
+
+## 保有資格
+
+| 年   | 月  | 資格名                                           |
+| ---- | --- | ------------------------------------------------ |
+| 2023 | 7   | Cisco Certified Network Associate (200-301 CCNA) |
+| 2023 | 8   | LPIC Level1                                      |
+| 2023 | 9   | AWS ソリューションアーキテクトアソシエイト       |
+| 2023 | 11  | LPIC Level2                                      |
+| 2023 | 11  | LPIC Level3 300                                  |
+| 2024 | 1   | AWS ソリューションアーキテクトプロフェッショナル |
 
 ## 自己 PR
 
-- チーム内での業務改善能力
+### 継続力と自走力
 
-前職の郵便配達員として、日々の配達経路の見直しやお客様情報の資料を整備・改良することで、担当区域における業務時間を一日あたり 30 分から 1 時間短縮しました。
-その成果を他の社員にも共有することで所属チームの月間残業時間を 20 時間削減しました。
-この経験から、業務改善に対する積極的な姿勢と継続的な努力が身につきました。
+私の強みは継続的な自走力です。IT 業界への転職を志してからの 1 年間、私は自主学習を続け、次の成果を達成しました。
 
-- 継続的な学習能力
+- **資格取得**: 7 ヶ月で AWS ソリューションアーキテクトプロフェッショナル、LPIC-3、CCNA など 6 つの資格を取得
+- **プログラミング学習**: 未経験から学び始め、個人開発で音楽共有アプリ「Mixify」をリリース
 
-現職中に自主的に学習を継続し、 7 ヶ月で AWS ソリューションアーキテクトプロフェッショナル、Lpic3、CCNA などの 6 つの資格を取得しました。
-これらの資格勉強を通してクラウドコンピューティング、ネットワーク管理、Linux システムについての専門知識を深めました。クラウドに関しては後のアプリケーション開発を通してさらに実践的な知見を得ました。
-
-- 実践的な技術を身につける自走力
-
-資格取得後、完全独学でプログラミング学習を継続し、学習開始から 5 ヶ月半で音楽共有アプリ「Mixtones」をリリースしました。
-使用技術はバックエンドが Ruby on Rails、フロントエンドが JavaScript、React、インフラを AWS で構成し Docker コンテナ上にアプリケーションをデプロイしています。
-
-- 問題解決能力
-
-プログラミング学習で得た知見を生かし、VBA で作成された業務ツールの改良に取り組みました。現在も更新作業を続けており、この改良によってチーム全体の生産性が向上しました。
-
-- ポートフォリオ
-
-私はプライベートで音楽活動をしているのですが、コロナ禍の影響や年齢を重ねるにつれなかなか友人と会う機会が作れず、いい音楽の情報を交換できる機会が減っているなと感じていました。
-そこで、普段使用しているサブスクリプションのお気に入りの音楽を常に共有し、それについて様々なコミュニケーションができるプラットフォームとして「Mixtones」というポートフォリオを作成しました。
-私自身や周りの友人が主に Spotify を利用していることから特に Spotify API と連携した機能がメインとなっていますが、それ以外のユーザーもアプリケーションに登録すれば好きな音楽を発見したり、それを保存したり他のユーザーにおすすめするなどの機能が使えます。
+これらの学習はすべて独学で行い、プログラミングスクールなどの利用はしていません。
+このような自発的な学習とキャッチアップを継続できる自走力は、IT エンジニアという職種において必要不可欠な要素であり、私の強みだと考えています。
+将来的には、この強みを生かし、テックリードとしてサービスのアップグレードに貢献したいと考えています。
