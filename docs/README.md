@@ -16,7 +16,9 @@
 
 ### ポートフォリオ URL
 
-[https://web.mixtones.tech/](https://web.mixtones.tech/) 
+[https://web.mixtones.tech/](https://web.mixtones.tech/)
+
+現在、外部 API へクオータ制限の拡張を申請中につき、外部ユーザーはゲストログインのみ行えます。
 
 ## キャリア目標
 
@@ -45,6 +47,7 @@
 ![EC2](https://img.shields.io/badge/-EC2-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
 ![Fargate](https://img.shields.io/badge/-Fargate-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
 ![IAM](https://img.shields.io/badge/-IAM-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![ElastiCache](https://img.shields.io/badge/-ElastiCache-1488C6?style=flat-square&logo=Amazon-AWS&logoColor=white)
 ![S3](https://img.shields.io/badge/-S3-569A31?style=flat-square&logo=Amazon-S3&logoColor=white)
 
 ### その他
@@ -66,6 +69,12 @@
 #### 概要
 
 音楽共有アプリ「Mixtones」開発。身近な課題解決とプログラミング学習の成果物作成を目的とした個人開発プロジェクトです。
+
+URL:
+
+[https://web.mixtones.tech/](https://web.mixtones.tech/)
+
+現在、外部 API へクオータ制限の拡張を申請中につき、外部ユーザーはゲストログインのみ行えます。
 
 #### 担当
 
