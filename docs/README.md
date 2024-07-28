@@ -16,6 +16,8 @@
 
 ### ポートフォリオ URL
 
+[https://web.mixtones.tech/](https://web.mixtones.tech/) 
+
 ## キャリア目標
 
 バックエンドエンジニアとして社内でテックリード的な立場となり、さらにインフラ技術までカバーした SRE エンジニアを目指す。
@@ -31,6 +33,7 @@
 
 ![Ruby on Rails](https://img.shields.io/badge/-Ruby_on_Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=black)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=Vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=Tailwind-CSS&logoColor=white)
 
 ### DB・クラウド
@@ -51,13 +54,14 @@
 ![GitHub Pages](https://img.shields.io/badge/-GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![RSpec](https://img.shields.io/badge/-RSpec-CC342D?style=flat-square&logo=ruby&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 <!-- markdownlint-disable MD024 -->
 <!-- textlint-disable ja-no-mixed-period -->
 
 ## プロジェクト・経験
 
-### 音楽共有アプリ「 Mixtones 」
+### 音楽共有アプリ「 Mixtones 」(2024/04〜現在)
 
 #### 概要
 
@@ -71,11 +75,24 @@
 
 ![Ruby on Rails](https://img.shields.io/badge/-Ruby_on_Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=black)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=Vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=Tailwind-CSS&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![ECR](https://img.shields.io/badge/-ECR-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![ECS](https://img.shields.io/badge/-ECS-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![Fargate](https://img.shields.io/badge/-Fargate-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![ALB](https://img.shields.io/badge/-ALB-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![IAM](https://img.shields.io/badge/-IAM-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![ACM](https://img.shields.io/badge/-ACM-527FFF?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![RDS](https://img.shields.io/badge/-RDS-527FFF?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![S3](https://img.shields.io/badge/-S3-569A31?style=flat-square&logo=Amazon-S3&logoColor=white)
+![CloudFront](https://img.shields.io/badge/-CloudFront-F99963?style=flat-square&logo=Amazon-CloudFront&logoColor=white)
+![ElastiCache](https://img.shields.io/badge/-ElastiCache-1488C6?style=flat-square&logo=Amazon-AWS&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![RSpec](https://img.shields.io/badge/-RSpec-CC342D?style=flat-square&logo=ruby&logoColor=white)
+
 
 #### 課題
 
@@ -86,7 +103,7 @@
 
 #### 取り組み
 
-- アプリ内で同じコミュニティに参加することで、Spotify API へユーザー認証した Spotify ユーザー同志の「お気に入りの楽曲」リストを統合したプレイリストを自動作成可能とした
+- アプリ内で同じコミュニティに参加することで、Spotify API へユーザー認証した Spotify ユーザー同志の「お気に入りの楽曲」(ユーザーが普段楽曲を保存しているプレイリスト)を統合したプレイリストを自動作成可能とした
 - 上記プレイリストの内容を普段の Spotify アプリ上のアクティビティに合わせて自動更新する機能を実装
 - Spotify ユーザー以外のユーザーも楽曲をプレビュー再生視聴できる機能を実装し、各コミュニティのプレイリストのなかでユーザーが気に入った楽曲を自分のユーザーページに保存できるチェック機能も実装。ユーザーがアプリ上で様々な音楽の情報をキャッチアップできるようにした
 
@@ -100,7 +117,7 @@
 - これらの取り組みにより、友人同志で普段聴いている音楽の情報を、直接会ったりメールで連絡したりすることなく共有可能とし、友人から高評価を得た
 - このアプリの開発を通して Ruby on Rails, React, JavaScript などの実践的な技術を学習できた
 
-### 保険会社の社内オンラインシステム運用・監視・保守
+### 保険会社の社内オンラインシステム運用・監視・保守(2023/11〜現在)
 
 #### 概要
 
