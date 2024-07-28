@@ -16,7 +16,9 @@
 
 ### ポートフォリオ URL
 
-[https://web.mixtones.tech/](https://web.mixtones.tech/) 
+[https://web.mixtones.tech/](https://web.mixtones.tech/)
+
+現在、外部APIへクオータ制限の拡張を申請中につき、外部ユーザーはゲストログインのみ行えます。
 
 ## キャリア目標
 
@@ -67,6 +69,12 @@
 #### 概要
 
 音楽共有アプリ「Mixtones」開発。身近な課題解決とプログラミング学習の成果物作成を目的とした個人開発プロジェクトです。
+
+URL:
+
+[https://web.mixtones.tech/](https://web.mixtones.tech/)
+
+現在、外部APIへクオータ制限の拡張を申請中につき、外部ユーザーはゲストログインのみ行えます。
 
 #### 担当
 
