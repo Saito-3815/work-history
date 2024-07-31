@@ -49,6 +49,7 @@
 ![IAM](https://img.shields.io/badge/-IAM-FF9900?style=flat-square&logo=Amazon-AWS&logoColor=white)
 ![ElastiCache](https://img.shields.io/badge/-ElastiCache-1488C6?style=flat-square&logo=Amazon-AWS&logoColor=white)
 ![S3](https://img.shields.io/badge/-S3-569A31?style=flat-square&logo=Amazon-S3&logoColor=white)
+![CloudFront](https://img.shields.io/badge/-CloudFront-F99963?style=flat-square&logo=Amazon-CloudFront&logoColor=white)
 
 ### その他
 
