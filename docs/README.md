@@ -57,7 +57,7 @@
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/-GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![RSpec](https://img. shields.io/badge/-RSpec-CC342D?style=flat-square&logo=ruby&logoColor=white)
+![RSpec](https://img.shields.io/badge/-RSpec-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 <!-- markdownlint-disable MD024 -->
