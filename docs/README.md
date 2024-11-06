@@ -5,8 +5,9 @@
 電気通信大学を卒業後、2014 年 4 月に日本郵便株式会社へ入社し、郵便配達員として郵便物の配達および各種郵便商品の営業活動に従事。
 業務改善に取り組み、所属チームの残業時間を 20-30 %削減。また、局内のかもメール販売件数で 1 位を獲得。
 
-2023 年 9 月に IT 業種への転職を志し、日本郵便株式会社を退職。同年 11 月よりパーソルクロステクノロジー株式会社に派遣登録し、監視オペレーターとして就業中。
-自己学習を継続し、7 ヶ月で 6 つの IT 資格を取得。資格取得後、5 ヶ月半の学習・開発期間を経て、音楽共有ウェブサービス「Mixtones」をリリース。
+2023 年 9 月に IT 業種への転職を志し、日本郵便株式会社を退職。同年 11 月よりパーソルクロステクノロジー株式会社に派遣登録し、監視オペレーターとして就業。
+その後、 2024 年 9 月末に退職し、セールステック系スタートアップ企業において業務委託契約で Rails プロダクトの PWA 化および web プッシュ通知の実装などの業務を経験。
+前職に就業中から自己学習を継続し、7 ヶ月で 6 つの IT 資格を取得。資格取得後、5 ヶ月半の学習・開発期間を経て、音楽共有ウェブサービス「Mixtones」をリリース。
 
 ### 各種アカウント
 
@@ -49,6 +50,7 @@
 ![ElastiCache](https://img.shields.io/badge/-ElastiCache-1488C6?style=flat-square&logo=Amazon-AWS&logoColor=white)
 ![S3](https://img.shields.io/badge/-S3-569A31?style=flat-square&logo=Amazon-S3&logoColor=white)
 ![CloudFront](https://img.shields.io/badge/-CloudFront-F99963?style=flat-square&logo=Amazon-CloudFront&logoColor=white)
+![CloudWatch Logs](https://img.shields.io/badge/-CloudWatch_Logs-FF4F8B?style=flat-square&logo=Amazon-CloudWatch&logoColor=white)
 
 ### その他
 
@@ -58,11 +60,62 @@
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![RSpec](https://img.shields.io/badge/-RSpec-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![OneSignal](https://img.shields.io/badge/-OneSignal-FD3A4A?style=flat-square&logo=OneSignal&logoColor=white)
+![ngrok](https://img.shields.io/badge/-ngrok-1F1E37?style=flat-square&logo=ngrok&logoColor=white)
+![Cloudflared Tunnel](https://img.shields.io/badge/-Cloudflared_Tunnel-F38020?style=flat-square&logo=Cloudflare&logoColor=white)
+![PWA](https://img.shields.io/badge/-PWA-5A0FC8?style=flat-square&logo=PWA&logoColor=white)
+![Sidekiq](https://img.shields.io/badge/-Sidekiq-DC382D?style=flat-square&logo=Sidekiq&logoColor=white)
+![Google Tag Manager](https://img.shields.io/badge/-Google_Tag_Manager-246FDB?style=flat-square&logo=Google-Tag-Manager&logoColor=white)
 
 <!-- markdownlint-disable MD024 -->
 <!-- textlint-disable ja-no-mixed-period -->
 
 ## プロジェクト・経験
+
+### 消費者向け web アンケートの再訪率アップへ向けたアプリケーションの PWA 化および web プッシュ通知の実装(2024/10〜2024/11)
+
+#### 概要
+
+セールステック系スタートアップにおける消費者向け web アンケートプラットフォーム Rails アプリケーションの PWA 化および web プッシュ通知の実装
+
+#### 担当
+
+既存の構築済み Rails プロダクトへの追加実装・テスト
+
+#### 使用技術
+
+![Ruby on Rails](https://img.shields.io/badge/-Ruby_on_Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white)
+![OneSignal](https://img.shields.io/badge/-OneSignal-FD3A4A?style=flat-square&logo=OneSignal&logoColor=white)
+![ngrok](https://img.shields.io/badge/-ngrok-1F1E37?style=flat-square&logo=ngrok&logoColor=white)
+![Cloudflared Tunnel](https://img.shields.io/badge/-Cloudflared_Tunnel-F38020?style=flat-square&logo=Cloudflare&logoColor=white)
+![Google Tag Manager](https://img.shields.io/badge/-Google_Tag_Manager-246FDB?style=flat-square&logo=Google-Tag-Manager&logoColor=white)
+![PWA](https://img.shields.io/badge/-PWA-5A0FC8?style=flat-square&logo=PWA&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+#### 課題
+
+- 消費者向けに定期的に実施される web アンケートについて現状採用されているメール以外の手段で再訪率アップを促したい
+
+#### 取り組み
+
+iOS16.4 から iOS の Safari も PWA のプッシュ通知に対応したことを受け、上記課題解決へ向けての web プッシュ通知実装に向けて次の取り組みを実施した。
+
+- 既存の Rails アプリケーションを PWA 化
+- OneSignal を導入し、上記 PWA にモバイル web プッシュ通知を実装
+- Google Tag Manager に PWA インストールを促す UI および OneSignal の購読通知 UI タグ、関連するトリガーを実装
+- ngrok および Cloudflared Tunnel を使用しての開発環境のモバイルテスト
+
+#### 工夫した点
+
+- アプリの各ページにおける OneSignal が提供する購読登録用カスタム UI の候補を複数選定し、レヴュワーと使用感を確認しつつ最適な UI を目指した
+- アンケート完了ページに PWA インストールを促す GTM のタグを発火させユーザーのスムーズな導入を図った
+
+[https://documentation.onesignal.com/docs/web-sdk-reference#notifybutton-parameters](https://documentation.onesignal.com/docs/web-sdk-reference#notifybutton-parameters)
+
+#### 成果
+
+- これらの取り組みにより既存のアプリケーションでモバイル環境におけるプッシュ通知を受信可能となった
+- ユーザーがより直感的な操作感で PWA インストールおよび web プッシュ通知の購読登録が行えるようになった
 
 ### 音楽共有アプリ「 Mixtones 」(2024/04〜現在)
 
